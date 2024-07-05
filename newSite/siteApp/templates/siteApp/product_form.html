@@ -1,0 +1,14 @@
+<!-- Extend the base layout from the layout.html-->
+
+{% extends 'siteApp/layout.html' %}
+
+{% block title %} Product Form {% endblock %}
+
+{% block content %}
+    <hi class = 'text-center'>Product Form</h1>
+        <form method = 'POST' class = 'jumbotron'>
+            {% csrf_token %}
+            {{ form }}
+            <button class = 'btn btn-success btn-block' type = 'submit'>Save Product</button>
+        </form>
+{% endblock %}
