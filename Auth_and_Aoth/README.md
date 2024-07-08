@@ -1,1 +1,0 @@
-A Django backend-based app built using the authentication and authorization modules of Django
