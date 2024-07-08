@@ -1,0 +1,1 @@
+A Django backend-based app for management built using the C.R.U.D. database management style
